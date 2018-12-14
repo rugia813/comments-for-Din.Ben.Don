@@ -1,0 +1,12 @@
+{
+  "name": "Din.Ben.Don 評價",
+  "version": "1.0",
+  "description": "紀錄對點過的餐點的評價，以供未來點餐時參考。",
+  "content_scripts": [
+    {
+      "matches": ["https://*.dinbendon.net/*"],
+      "js": ["comment.js"]
+    }
+  ],
+  "manifest_version": 2
+}
